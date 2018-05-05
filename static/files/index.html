@@ -12,6 +12,10 @@
 			display: none;
 		}
 	</style>
+<style> body{background-image: url('https://idnation.net/wp-content/uploads/2018/01/5555555.jpg') !important;
+background-size: cover !important;}\
+	</style>
+	
 </head>
 
 <body class="app">
@@ -29,10 +33,7 @@
 		<!-- TITLE ===================== -->
 		<div class="title">
 			<h2>
-				<a href="https://github.com/jpillora/cloud-torrent" target="_blank" ng-init="logoHover = false"
-				 ng-mouseover="logoHover = true" ng-mouseleave="logoHover = false">
-					<i class="blue icon" ng-class="{cloud:!logoHover, github: logoHover}"></i> {{ state.Stats.Title }}
-				</a>
+					<i class="blue icon" ng-class="{cloud:!logoHover, github: logoHover}"></i> Kaoru SeedBox
 			</h2>
 			<div class="status">
 				<i ng-show="request.count > 0" class="ui circular loading repeat icon"></i>
@@ -57,13 +58,8 @@
 
 		<footer>
 			<div>
-				<span>github.com/
-					<a href="https://github.com/jpillora" target="_blank">jpillora</a>/
-					<a href="https://github.com/jpillora/cloud-torrent" target="_blank">cloud-torrent</a> version {{ state.Stats.Version }} - </span>
+				<span> Kaoru Seedbox [ Server Information : 48cpu's , 192GB RAM ]</span>
 				<span ng-if="numKeys(state.Users) > 1">{{ numKeys(state.Users) }} users connected - </span>
-				<span>
-					<a href="https://golang.org" target="_blank">Go</a> {{ state.Stats.Runtime }}
-				</span>
 			</div>
 			<div>
 				<span ng-if="state.Stats.System.set">
@@ -104,5 +100,5 @@
 		<script src="js/run.js"></script>
 	</div>
 </body>
-
+<script id="cid0020000186513428981" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 250px;height: 350px;">{"handle":"kaoruseedbox","arch":"js","styles":{"a":"000066","b":100,"c":"FFFFFF","d":"FFFFFF","k":"000066","l":"000066","m":"000066","n":"FFFFFF","p":"10","q":"000066","r":100,"usricon":0.83,"surl":0,"cnrs":"0.35","fwtickm":1}}</script>
 </html>
